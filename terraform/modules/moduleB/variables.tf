@@ -3,7 +3,7 @@ variable "name" {
   type        = string
 }
 
-variable "name" {
+variable "tags" {
     type = map(string)
     description = "(optional) tags to apply to created resources"
     default = {}

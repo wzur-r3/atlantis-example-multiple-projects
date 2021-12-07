@@ -9,5 +9,6 @@ module "moduleB" {
   tags = {
     Owner : "BLT"
     Creator : "Terraform"
+    Env : "ProjectA"
   }
 }
